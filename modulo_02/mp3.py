@@ -8,8 +8,8 @@ import pygame
 
 pygame.init()
 
-print("Bom dia! Hora de brilhar como o CR7 ✨💪")
+print("\nBom dia! Hora de brilhar como o CR7 ✨💪")
 pygame.mixer.music.load('arquivos/bom-dia-do-cr7.mp3')
 pygame.mixer.music.play()
-input("Pressione Enter para pular... mas você não vai fazer isso com o CR7, vai? 😏")
+input("Pressione Enter para pausar... mas você não vai fazer isso com o CR7, vai? 😏")
 pygame.event.wait()
